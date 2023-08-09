@@ -1,0 +1,121 @@
+.body {
+    background-image: url('Image/bg.png');
+}
+
+#banner {
+    height: 60vh; width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#twi_icon {
+    height: 15vh; width: auto;
+    position: absolute;
+    left: 27%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: slide_twi 1s ease-out;
+    z-index: 1;
+    transition: all 0.2s linear;
+}
+
+#twi_icon:hover {
+    transform: scale(1.2);
+}
+
+#ytb_icon {
+    height: 15vh; width: auto;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: slide_ytb 1s ease-out;
+    z-index: 1;
+}
+
+#ytb_icon:hover {
+    transform: scale(1.2);
+}
+
+#tgd_icon {
+    height: 15vh; width: auto;
+    position: absolute;
+    left: 73%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: slide_tgd .5s ease-out;
+    z-index: 1;
+}
+
+#quiz_icon {
+    height: 15vh; width: auto;
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: slide_quiz .5s ease-out;
+    z-index: 1;
+}
+
+@keyframes slide_twi {
+    from {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        position: absolute;
+        left: 27%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes slide_ytb {
+    from {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        position: absolute;
+        left: 15%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes slide_tgd {
+    from {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        position: absolute;
+        left: 73%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes slide_quiz {
+    from {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        position: absolute;
+        left: 85%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
